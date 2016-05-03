@@ -1,0 +1,57 @@
+HTML {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+
+a {
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  color: #6699cc;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+
+#page {
+	width: 80%;
+	max-width: 815px;
+	margin: auto;	
+}
+
+#header {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666;
+}
+#header #bannerimage {
+	width: 100%;
+	max-width: 815px;	
+}
+
+#body {
+	
+}
+
+#body #toc {
+	border-bottom: 1px solid #666;
+}
+
+#body #toc LI {
+	font-size: 95%;
+	margin-bottom:3px;
+}
+
+#footer {
+	color:#888;
+	margin-top : 5px;
+	padding-top:5px;
+	border-top: 1px solid #aaa;
+}
+
+@media screen {
+	H1, H2, H3, H4 {
+		color: #444;
+	}
+}
